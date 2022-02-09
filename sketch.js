@@ -1,11 +1,14 @@
-
 let clrs = [
-'#c5decc', //top 0
-'#f1ffd9', //middle top 1
-'#429da1', //middle strip 2
-'#54094b', //middle bottom 3
-'#652c78' //bottom 4
+  //cooler light tones on top versus warmer dark tones on the bottom, complementary colors might be helping
+  //Change #2, I am now doing a really dark red on top and pale green on the bottom so the dark box is on the bottom. I want to also work more with the color wheel so I will make the bar on the red side more orange and the green side more blue. 
+  //Change #3, avoiding saturation but going in with darker colors overall
+'#9aa67b', //top 0
+'#c3d694', //middle top 1
+'#8e7e9e', //middle strip 2
+'#b98fcc', //middle bottom 3
+'#c72ab2' //bottom 4
 ]
+
 
 
 function setup() {
